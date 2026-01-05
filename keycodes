@@ -23,15 +23,13 @@ local KEYCODES = {
     CONTROL = 0x11,
     ALT = 0x12,
 
-    ----------------------------------------
-    -- MOUSE KEYCODES (Matcha compatible)
-    ----------------------------------------
+  -- Mouse keycodes
     MOUSE1 = 0x01,        -- Left Click
     MOUSE2 = 0x02,        -- Right Click
     MOUSE3 = 0x04,        -- Middle Click / Scroll wheel click
     MOUSE4 = 0x05,        -- Side button 1 (XButton1)
     MOUSE5 = 0x06,        -- Side button 2 (XButton2)
 
-    SCROLL_UP = 0x78,     -- Virtual scroll up
-    SCROLL_DOWN = 0x79    -- Virtual scroll down
+    SCROLL_UP = 0x78,     -- scroll wheel up
+    SCROLL_DOWN = 0x79    --  scroll wheel down
 }
